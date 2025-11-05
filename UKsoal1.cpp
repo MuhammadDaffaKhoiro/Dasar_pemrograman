@@ -13,6 +13,11 @@ int main(){
 	menit = totalDetik / 60; // satu menit = 60 detik,sisa hasil bagi (%) dari jam kemudian dibagi 60 detik
 	detik = totalDetik % 60;
 
+	//untuk menghentika sementara code yang di jalankan
+	cout<<endl;
+	system("pause");
+	system("cls");
+	
 	//output hasil
 	cout<<"\nHasil Konversi : "<<endl;
 	cout<<jam<<"jam,"<<menit<<"menit,"<<detik<<"detik,"<<endl;
@@ -20,3 +25,4 @@ int main(){
 	return 0;
 	
 }
+
